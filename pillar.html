@@ -2,119 +2,131 @@
 <html>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 <head>
+ <script src="myscripts.js"></script>
 <link rel="stylesheet" type="text/css" href="pillar.css">
 <title> Pillar </title>
  </head>
  
- <body>
+ <body style="background-color:#ffcc99;">
 <div class="topnav" id="myTopnav">
-  <a href="#home">Home</a>
-  <a href="#about">About Us</a>
-  <a href="#prototype">Prototype</a>
-  <a href="#contact">Contact Us</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+ <a href="#home">Home</a>
+ <a href="#about">About Us</a>
+ <a href="#prototype">Prototype</a>
+ <a href="#contact">Contact Us</a>
+ <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
 <div class="slideshow-container">
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 10</div>
-    <img src="pillar1.png" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
+ <div class="mySlides fade">
+ <div class="numbertext">1 / 10</div>
+ <img src="pillar1.png" style="width:100%">
+ <div class="text"></div>
+ </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 10</div>
-    <img src="pillar2.png" style="width:100%">
-    <div class="text">Caption Two</div>
-  </div>
+ <div class="mySlides fade">
+ <div class="numbertext">2 / 10</div>
+ <img src="pillar2.png" style="width:100%">
+ <div class="text"></div>
+ </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 10</div>
-    <img src="pillar3.png" style="width:100%">
-    <div class="text">Caption Three</div>
-  </div>
+ <div class="mySlides fade">
+ <div class="numbertext">3 / 10</div>
+ <img src="pillar3.png" style="width:100%">
+ <div class="text"></div>
+ </div>
 
-  <div class="slideshow-container">
-  <div class="mySlides fade">
-    <div class="numbertext">4 / 10</div>
-    <img src="pillar4.png" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-    
-   <div class="slideshow-container">
-  <div class="mySlides fade">
-    <div class="numbertext">5 / 10</div>
-    <img src="pillar5.png" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-     
-   <div class="slideshow-container">
-  <div class="mySlides fade">
-    <div class="numbertext">6 / 10</div>
-    <img src="pillar6.png" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-     
-  <div class="slideshow-container">
-  <div class="mySlides fade">
-    <div class="numbertext">7 / 10</div>
-    <img src="pillar7.png" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-    
-  <div class="slideshow-container">
-  <div class="mySlides fade">
-    <div class="numbertext">8 / 10</div>
-    <img src="pillar8.png" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-    
-  <div class="slideshow-container">
-  <div class="mySlides fade">
-    <div class="numbertext">9 / 10</div>
-    <img src="pillar9.png" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-    
-  <div class="slideshow-container">
-  <div class="mySlides fade">
-    <div class="numbertext">10 / 10</div>
-    <img src="pillar10.png" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-     
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+ <div class="slideshow-container">
+ <div class="mySlides fade">
+ <div class="numbertext">4 / 10</div>
+ <img src="pillar4.png" style="width:100%">
+ <div class="text"></div>
+ </div>
+ 
+ <div class="slideshow-container">
+ <div class="mySlides fade">
+ <div class="numbertext">5 / 10</div>
+ <img src="pillar5.png" style="width:100%">
+ <div class="text"></div>
+ </div>
+ 
+ <div class="slideshow-container">
+ <div class="mySlides fade">
+ <div class="numbertext">6 / 10</div>
+ <img src="pillar6.png" style="width:100%">
+ <div class="text"></div>
+ </div>
+ 
+ <div class="slideshow-container">
+ <div class="mySlides fade">
+ <div class="numbertext">7 / 10</div>
+ <img src="pillar7.png" style="width:100%">
+ <div class="text"></div>
+ </div>
+ 
+ <div class="slideshow-container">
+ <div class="mySlides fade">
+ <div class="numbertext">8 / 10</div>
+ <img src="pillar8.png" style="width:100%">
+ <div class="text"></div>
+ </div>
+ 
+ <div class="slideshow-container">
+ <div class="mySlides fade">
+ <div class="numbertext">9 / 10</div>
+ <img src="pillar9.png" style="width:100%">
+ <div class="text"></div>
+ </div>
+ 
+ <div class="slideshow-container">
+ <div class="mySlides fade">
+ <div class="numbertext">10 / 10</div>
+ <img src="pillar10.png" style="width:100%">
+ <div class="text"></div>
+ </div>
+ 
+ <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+ <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
 <br>
 
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-<!--   <span class="dot" onclick="currentSlide(3)"></span>  -->
+ <span class="dot" onclick="currentSlide(1)"></span> 
+ <span class="dot" onclick="currentSlide(2)"></span> 
+ <span class="dot" onclick="currentSlide(3)"></span> 
+ <span class="dot" onclick="currentSlide(4)"></span> 
+ <span class="dot" onclick="currentSlide(5)"></span> 
+ <span class="dot" onclick="currentSlide(6)"></span> 
+ <span class="dot" onclick="currentSlide(7)"></span> 
+ <span class="dot" onclick="currentSlide(8)"></span> 
+ <span class="dot" onclick="currentSlide(9)"></span> 
+ <span class="dot" onclick="currentSlide(10)"></span>
 </div>
-  
+ 
 <script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex> slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 10000); // Change image every 10 seconds
+var slideIndex = 2;
+showSlides(slideIndex);
+function plusSlides(n) {
+ showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+ showSlides(slideIndex = n);
+}
+function showSlides(n) {
+ var i;
+ var slides = document.getElementsByClassName("mySlides");
+ var dots = document.getElementsByClassName("dot");
+ if (n > slides.length) {slideIndex = 1} 
+ if (n < 1) {slideIndex = slides.length}
+ for (i = 0; i < slides.length; i++) {
+ slides[i].style.display = "none"; 
+ }
+ for (i = 0; i < dots.length; i++) {
+ dots[i].className = dots[i].className.replace(" active", "");
+ }
+ slides[slideIndex-1].style.display = "block"; 
+ dots[slideIndex-1].className += " active";
 }
 </script>
-   <h1> Pillar </h1>
+ <h1> Pillar </h1>
 </body>
 </html>
