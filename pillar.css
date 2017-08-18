@@ -124,7 +124,7 @@
 }
 
 h1 {
-    color: white;
+    color: black;
 }
 
 h1 {
@@ -139,6 +139,10 @@ h1 {
     font-family: "Georgia";
 }
 
+h1 {
+    font-size: 200px;
+}
+
 p {
    text-align: center;
 }
@@ -147,3 +151,6 @@ p {
    font-family: "Courier New";
 }
 
+p {
+    font-size: 40px;
+}
