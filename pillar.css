@@ -143,8 +143,8 @@ h1 {
     font-size: 140px;
 }
 
-h1.big {
-    line-height: 0.8;
+h1.small {
+    line-height: 0.0;
 }
 
 p {
