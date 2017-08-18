@@ -144,7 +144,7 @@ h1 {
 }
 
 h1.small {
-    line-height: 0.0;
+    line-height: 70%;
 }
 
 p {
