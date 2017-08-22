@@ -1,6 +1,6 @@
 /* Add a background color to the top navigation */
 .topnav {
-    background-color: rgb(254,127,129) ;
+    background-color: rgb(253,128,129) ;
     overflow: hidden;
 }
 
@@ -18,7 +18,7 @@
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: white;
-    color: dark grey;
+    color: rgb(56,56,56);
 }
 
 /* Hide the link that should open and close the topnav on small screens */
