@@ -1,11 +1,11 @@
 /* Add a background color to the top navigation */
-.topnav {
+/* .topnav {
     background-color: rgb(253,128,129) ;
     overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
+/* .topnav a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -13,22 +13,23 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 24px;
-}
+} */
 
 /* Change the color of links on hover */
-.topnav a:hover {
+/* .topnav a:hover {
     background-color: white;
     color: rgb(56,56,56);
-}
+} */
 
 /* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
+/* .topnav .icon {
     display: none;
 }
 
-* {box-sizing:border-box}
-
-
+* {box-sizing:border-box} */ */
+/*  */
+/* 
+ */
 
 * {box-sizing:border-box}
 
