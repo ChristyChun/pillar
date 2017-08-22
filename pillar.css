@@ -1,4 +1,9 @@
 /* Add a black background color to the top navigation */
+body {   
+    background-image: url("pillar background.jpg");   
+    background-color: #cccccc;
+}
+
 .topnav {
     background-color: #333;
     overflow: hidden;
