@@ -1,7 +1,6 @@
 /* Add a black background color to the top navigation */
 body {   
-    background-image: url("pillar background.jpg");   
-    background-color: #cccccc;
+    background-image: url("pillar background.jpg"); 
 }
 
 .topnav {
